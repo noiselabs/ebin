@@ -29,12 +29,12 @@ setup(name='ebin',
     license='GNU General Public License (GPL)',
     packages=find_packages('src'),
     package_dir = {'': 'src'},
-    namespace_packages = ['org', 'org.noiselabs'],
+    namespace_packages = ['noiselabs'],
     include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
     entry_points={
         'console_scripts':
-            ['ebin=org.noiselabs.ebin:main']
+            ['ebin=noiselabs.ebin:main']
     }
 )

@@ -7,5 +7,5 @@ develop-eggs
 *.egg-info
 
 tmp
-build
+./build
 dist
